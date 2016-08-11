@@ -52,8 +52,14 @@
         border-top: 1px solid #ccc;
       }
       footer span { float: right; font-style: italic; }
+
+      /* Smartphones (portrait) */
+      @media only screen and (max-width: 480px) {
+        body { font-size: 12px;}
+        header p { padding-left: 4.5em;}
+      }
     </style>
-    <link href="css/portrait-style.min.css" rel="stylesheet" media="screen and (orientation: portrait)">
+    <!--<link href="css/portrait-style.min.css" rel="stylesheet" media="screen and (orientation: portrait)">-->
     <link href="css/print.min.css" rel="stylesheet" media="print">
     <script async type="text/javascript">
       WebFontConfig = {
