@@ -1,0 +1,34 @@
+{
+  "name": "WebPerformance",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "email": "",
+  "url": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "clean-css": "^3.4.12",
+    "fs": "0.0.2",
+    "htmlparser2": "^3.9.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.7.0",
+    "uglify-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0"
+  }
+}
